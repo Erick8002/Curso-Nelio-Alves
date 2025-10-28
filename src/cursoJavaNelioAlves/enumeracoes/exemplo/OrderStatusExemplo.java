@@ -1,6 +1,6 @@
 package cursoJavaNelioAlves.enumeracoes.exemplo;
 
-public enum OrderStatus {
+public enum OrderStatusExemplo {
 
     PENDING_PAYMENT,
     PROCESSING,

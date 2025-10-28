@@ -2,14 +2,14 @@ package cursoJavaNelioAlves.enumeracoes.exemplo;
 
 import java.util.Date;
 
-public class Order {
+public class OrderExemplo {
     private int id;
     private Date moment;
-    private OrderStatus status;
+    private OrderStatusExemplo status;
 
-    public Order(){ }
+    public OrderExemplo(){ }
 
-    public Order(int id, Date moment, OrderStatus status) {
+    public OrderExemplo(int id, Date moment, OrderStatusExemplo status) {
         this.id = id;
         this.moment = moment;
         this.status = status;
@@ -29,10 +29,10 @@ public class Order {
         this.moment = moment;
     }
 
-    public OrderStatus getStatus() {
+    public OrderStatusExemplo getStatus() {
         return status;
     }
-    public void setStatus(OrderStatus status) {
+    public void setStatus(OrderStatusExemplo status) {
         this.status = status;
     }
 
